@@ -23,7 +23,6 @@ describe('AppComponent', () => {
   it(`should have as title 'ItProgerAngular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ItProgerAngular');
   });
 
   it('should render title', () => {
